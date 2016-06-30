@@ -1,0 +1,20 @@
+{
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqa2rbalvGlq+vUPwWFqfeH2vVlPmTmTABVZPPiuxLFwLMpUscoFrM4o2S6tzA7u05rv48Dhh/9CQbgqR/O2N5BloJvcYXT+GxnOCal5/78FJzykK9OjtwBoY5Xx1hm3iyUJF4a3v3wSTaR84jXpyQEULkX+fd7Hv5vb424BUJCpFI4eWUa2d1i58TBr1nVQ+mGZoo2b4nt15rCkrAFn2TJCaopgDS8bbKByimQJcXnYt94uHLFsrlvE9AoqYi6mmkhiPCd+kuL/sUztdFGy+y43DUZwaWXdAXX1VjsBI9+YKmra7oz9Kl7kvoTlqx1tgjagpTHtM8a09PeuMdZk6ywIDAQAB",
+  "name": "PCO Song Browser",
+  "description": "Quickly browse and view charts on Planning Center Online songs.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": ["https://api.planningcenteronline.com/*","identity"],
+  "oauth2": {
+    "client_id": "96ab17a7cffbfb8c22afd98e606fb10db2276629d150b74732af20a3ca4e4465",
+    "scopes": [
+      "https://api.planningcenteronline.com/services"
+    ]
+  },
+  "icons": { "16": "sheet-music-16.png", "128": "sheet-music-128.png" }
+}
