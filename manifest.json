@@ -9,12 +9,9 @@
       "scripts": ["background.js"]
     }
   },
-  "permissions": ["https://api.planningcenteronline.com/*","identity"],
-  "oauth2": {
-    "client_id": "96ab17a7cffbfb8c22afd98e606fb10db2276629d150b74732af20a3ca4e4465",
-    "scopes": [
-      "https://api.planningcenteronline.com/services"
-    ]
-  },
+  "permissions": [
+    "identity",
+    "https://api.planningcenteronline.com/oauth/*"
+  ],
   "icons": { "16": "sheet-music-16.png", "128": "sheet-music-128.png" }
 }
