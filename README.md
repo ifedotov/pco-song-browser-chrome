@@ -1,5 +1,5 @@
 # PCO Song Browser
-This is a simple chrome browser application that shows list of songs in Planing Center. (https://planningcenteronline.com)
+This is a simple chrome browser application that shows list of songs in Planning Center. (https://planningcenteronline.com)
 Selecting a song should show a chord chart in the left panel. 
 
 The purpose of this application is to be able to quickly go through avalable songs when creating a list of songs for a service. 
