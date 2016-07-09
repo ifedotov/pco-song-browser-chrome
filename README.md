@@ -11,3 +11,6 @@ To install:
 1. Clone or download the code.
 2. Enable Developer mode in chrome.
 3. Use "Load unpacked extension.." button to install.
+ 
+A lot of Oauth2 JavaScript code is adapted from this project https://github.com/blackgirl/Facebook_Oauth2_sample_for_extensions
+
